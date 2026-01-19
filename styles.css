@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kedebideri", sans-serif;
+}
+
+
+body {
+    background-image: url(imgs/b295fdb974991cdef362b66d85e7e941\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa-maior {
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 450px;
+    height: 300px;
+    padding: 25px 30px;
+    border-radius: 15px;
+
+}
+
+.input-texto {
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.795);
+    font-size: 16px;
+    padding: 10px;
+}
+
+.idiomas {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+button {
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.img-button {
+    width: 22px;
+}
+
+.controle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resultado {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.titulo-traducao {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.traducao {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

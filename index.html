@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="responsive.css">
+    <title>Tradutor com IA</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+
+        <textarea class="input-texto" placeholder="Digite seu texto..."></textarea>
+
+        <div class="controle">
+
+            <select name="idioma" id="idioma" class="idiomas">
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
+                <option value="it">Italiano</option>
+                <option value="ja">Japonês</option>
+            </select>
+
+            <button onclick="btnTraduzir()"><img src="imgs/language-svgrepo-com.svg" alt="image-language" class="img-button"></button>
+            <button onclick="ouvirVoz()"><img src="imgs/microphone-alt-1-svgrepo-com.svg" alt="img-microphone" class="img-button"></button>
+
+        </div>
+
+        <div class="resultado">
+            <h3 class="titulo-traducao">Tradução</h3>
+            <p class="traducao"></p>
+        </div>
+
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
