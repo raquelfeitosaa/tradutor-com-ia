@@ -25,7 +25,7 @@ function ouvirVoz() {
     // me avise terminar de transcrever o texto 
     reconhecimento.onresult = (evento) => {
         let textotranscrito = evento.results[0][0].transcript;
-        inputTexto.textContent = textotranscrito;
+        inputTexto.value = textotranscrito;
 
         btnTraduzir();
     }
