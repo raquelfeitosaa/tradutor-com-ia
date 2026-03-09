@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>Tradutor com IA</title>
 </head>
 
@@ -30,8 +30,10 @@
                 <option value="ja">Japonês</option>
             </select>
 
-            <button onclick="btnTraduzir()"><img src="imgs/language-svgrepo-com.svg" alt="image-language" class="img-button"></button>
-            <button onclick="ouvirVoz()"><img src="imgs/microphone-alt-1-svgrepo-com.svg" alt="img-microphone" class="img-button"></button>
+            <button onclick="btnTraduzir()"><img src="imgs/language-svgrepo-com.svg" alt="image-language"
+                    class="img-button">Traduzir</button>
+            <button onclick="ouvirVoz()"><img src="imgs/microphone-alt-1-svgrepo-com.svg" alt="img-microphone"
+                    class="img-button">Texto por voz</button>
 
         </div>
 
@@ -40,7 +42,11 @@
             <p class="traducao"></p>
         </div>
 
+        <button class="clear" onclick="limpar()">Limpar</button>
     </div>
+
+
 </body>
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </html>

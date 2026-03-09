@@ -1,6 +1,13 @@
 let inputTexto = document.querySelector(".input-texto");
 let traducaotext = document.querySelector(".traducao");
 let idioma = document.querySelector(".idiomas");
+let btnlimpar = document.querySelector(".clear");
+
+
+function limpar() {
+    inputTexto.value = "";
+    traducaotext.textContent = "";
+}
 
 
 async function btnTraduzir() {
