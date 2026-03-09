@@ -21,6 +21,7 @@ body {
 .caixa-maior {
     background-color: rgba(255, 255, 255, 0.795);
     width: 450px;
+    height: auto;
     padding: 25px 30px;
     border-radius: 15px;
 
